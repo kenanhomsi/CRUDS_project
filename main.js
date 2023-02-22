@@ -58,7 +58,8 @@ create.onclick=()=>{
     }
     if(title !=' '&&
     price!=" "&&
-    category!=' '){
+    category!=' '&&
+    NewProduct.count<100){
         
         if(mood==='create'){
             for(let i=0;i<= +count.value-1;i++){
