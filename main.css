@@ -11,6 +11,9 @@ body{
 .container{
     width: 80%;
     margin: auto;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
 }
 .head{
     margin: 10px 0;
