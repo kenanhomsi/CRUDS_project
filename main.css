@@ -59,6 +59,7 @@ input:focus{
     content: 'TOTAL = ';
 }
 #create{
+    display: block;
     width: 100%;
     height: 30px;
     margin: 10px 0;
